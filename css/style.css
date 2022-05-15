@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  padding: 100px;
+  font-family: 'Inter', sans-serif;
+}
+input.green{
+  background: #FFFFFF;
+  border: 2px solid #3C7C1D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 18px 32px;
+  transition: 0.4s;
+  background-color: white;
+  width: 320px;
+  margin: 16px 0;
+  
+}
+input.green::placeholder{
+  color: rgba(60, 124, 29, 0.49);
+}
+input.green:focus{
+  box-shadow: 0px 0px 16px #3C7C1D;
+}
+input.green:focus::placeholder{
+  color: #3C7C1D;
+}
+
+button.green{
+  background: #FFFFFF;
+  border: 1px solid #948E03;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 20px 85px;
+  color: #948E03;
+  width: 320px;
+  transition: 0.4s;
+}
+button.green:hover{
+  background: #948E03;
+  color: white;
+}
+button.green:active{
+  transform: scale(0.95);
+  transition: 0.1s;
+}
+input.yellow{
+  width: 320px;
+  background: #FFFFFF;
+  border: 1px solid #FFAA06;
+  border-radius: 8px;
+  padding: 22px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 16px 0;
+  transition: 0.4s;
+}
+input.yellow::placeholder{
+  color: rgba(0, 0, 0, 0.64);
+}
+input.yellow:focus{
+  box-shadow: 4px 4px 4px 4px rgba(255, 170, 6, 0.45);
+}
+button.yellow{
+  background: rgba(255, 170, 6, 0.45);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  width: 320px;
+  transition: 0.4s;
+  text-transform: capitalize;
+  padding: 15px 32px;
+  color: rgba(0, 0, 0, 0.64);
+}
+button.yellow:hover{
+  background: rgba(255, 170, 6, 0.8);
+  color: black;
+}
+button.yellow:active{
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
